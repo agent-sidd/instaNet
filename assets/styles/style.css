@@ -62,7 +62,7 @@ input:focus, input:hover,input:active,button:focus,button:hover,button:active {
 }
 .result video, .result img {
     width: 50%;
-    margin: 2em;
+    margin: 0 auto;
   }
 .contnt_placeholder{
 margin: auto;
