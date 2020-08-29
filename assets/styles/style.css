@@ -28,7 +28,6 @@ body{
     justify-content: space-around;    
     flex-direction: row;  
   }
-
   input[type=url]{
     width: 90%;
     font-size: 20px;
