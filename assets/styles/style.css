@@ -1,0 +1,85 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body{
+    background: url('assets/images/bg.png');
+}
+.conatiner{
+    width: 95%;
+    height: 100vh;
+    margin: 0 auto;
+}
+.container_inp{
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.inpt_wrapper{
+    width: 80%;
+    max-width: 600px;
+    background: rgb(235, 233, 233);  
+    display: flex;
+    justify-content: space-around;    
+    flex-direction: row;  
+  }
+
+  input[type=url]{
+    width: 90%;
+    font-size: 20px;
+    background:url('../images/bg.png');
+    border: none;
+    color: rgb(131, 131, 131,0.7);
+    padding: 6px 2px;
+}
+input[type=text]:focus,input[type=text]:active{
+    outline: none;
+}
+ button{
+    background-color: #34963c;
+    border: none;
+    outline: none;
+    width: 10%;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.result{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+.result video, .result img {
+    width: 50%;
+    margin: 2em;
+  }
+.contnt_placeholder{
+margin: auto;
+max-width: 500px;
+height: 300px;
+display: block;
+background-image:url('../images/content_bg.jpg') ;
+background-size: cover;
+background-position: center center;
+}
+@media  (max-width: 430px) {
+    .contnt-placeholder {
+      max-width:320px;
+      height: 280px;
+     
+    }
+    input[type=text]{
+        font-size: 15px;
+        width: 85%;
+    }
+    button{
+        width: 15%;
+    }
+   
+  }
