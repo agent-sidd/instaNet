@@ -21,7 +21,7 @@ body{
     justify-content: center;
 }
 .inpt_wrapper{
-    width: 89%;
+    width: 92%;
     max-width: 600px;
     background: rgb(235, 233, 233);  
     display: flex;
@@ -81,10 +81,10 @@ background-position: center center;
     }
     input[type=text]{
         font-size: 15px;
-        width: 85%;
+        width: 88%;
     }
     button{
-        width: 15%;
+        width: 12%;
     }
    
   }
