@@ -39,6 +39,11 @@ body{
 input[type=text]:focus,input[type=text]:active{
     outline: none;
 }
+input:focus, input:hover,input:active,button:focus,button:hover,button:active {
+  border:none;
+  outline:none;
+  transition: all 500ms ease;
+}
  button{
     background-color: #34963c;
     border: none;
