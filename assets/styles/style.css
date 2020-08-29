@@ -21,7 +21,7 @@ body{
     justify-content: center;
 }
 .inpt_wrapper{
-    width: 92%;
+    width: 100%;
     max-width: 600px;
     background: rgb(235, 233, 233);  
     display: flex;
