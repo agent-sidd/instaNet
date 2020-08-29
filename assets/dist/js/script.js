@@ -11,7 +11,7 @@ v.autoplay=true;
 
 //info part
 let info=document.createElement('h4');
-info.textContent="right click on video or download button to save the video localy &#128525";
+info.textContent="right click on video or download button to save the video";
 render.innerHTML="";
 render.appendChild(v);
 render.appendChild(info);
@@ -25,7 +25,7 @@ const createImg= data =>{
     i.src=data.content;
     //info part
     let info=document.createElement('h4');
-    info.textContent="right click on image or download button to save the image localy";
+    info.textContent="right click on image or download button to save the image";
     render.innerHTML="";
     render.appendChild(i);
     render.appendChild(br);
