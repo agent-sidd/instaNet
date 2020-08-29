@@ -31,6 +31,7 @@ const createImg= data =>{
     render.appendChild(br);
     render.appendChild(info);
     }
+
     //extraction
     const getCont= () =>{
         render.innerHTML = "<div class='contnt-placeholder'></div>";
