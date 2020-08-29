@@ -86,5 +86,9 @@ background-position: center center;
     button{
         width: 12%;
     }
+    .result video, .result img {
+    width: 90%;
+    margin: 2em;
+  }
    
   }
