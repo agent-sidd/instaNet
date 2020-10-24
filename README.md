@@ -1,2 +1,2 @@
 # instaNet
-Download  any Instagram post  just in one click 
+Download any Instagram post including reels and igtv videos.
